@@ -2,6 +2,7 @@
 // Code for browser Action button
 chrome.browserAction.onClicked.addListener(function(activeTab) {
     chrome.tabs.executeScript(null, {file: "js/jquery.js"});
+    chrome.tabs.executeScript(null, {file: "js/jquery.dom-outline-1.0.js"});
     chrome.tabs.executeScript(null, {file: "js/start_ratings.js"});
     chrome.tabs.insertCSS(null, {
         file: "css/style.css"
@@ -18,6 +19,7 @@ function getRatings(info, tab) {
   // console.log("info: " + JSON.stringify(info));
   // console.log("tab: " + JSON.stringify(tab));
     chrome.tabs.executeScript(null, {file: "js/jquery.js"});
+    chrome.tabs.executeScript(null, {file: "js/jquery.dom-outline-1.0.js"});
     chrome.tabs.executeScript(null, {file: "js/start_ratings.js"});
     chrome.tabs.insertCSS(null, {
         file: "css/style.css"
