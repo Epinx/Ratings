@@ -236,6 +236,7 @@ function myFunction() {
 
 
 
+    // Alternate method, deprecated!
 
 	// $('cite').each(function(text) {
 	// 	sendToSpecific($(this).text());
