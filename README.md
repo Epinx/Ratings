@@ -18,3 +18,15 @@ Usage
 - Then click on the second movie name.
 
 - Voilà!
+
+
+Libraries Used
+=======
+
+- jQuery
+
+> jQuery JavaScript Library v2.1.0
+
+-  jQuery.DomOutline
+
+> https://github.com/smmalmansoori/jQuery.DomOutline
