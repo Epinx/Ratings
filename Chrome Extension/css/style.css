@@ -2,11 +2,11 @@
 	position:fixed; 
 	left: 45%; 
 	top: 10px;
-	opacity: 0.6;
-	cursor:pointer;
-	background:#eee; 
-	font-size:16px; 
-	padding: 5px 20px;
+	/*opacity: 0.6;*/
+	/*cursor:pointer;*/
+	/*background:#eee; */
+	/*font-size:16px; */
+	/*padding: 5px 20px;*/
 }
 
 .epinx-com-chrome-extension-rating{
@@ -32,3 +32,182 @@
 .epinx-com-chrome-extension-fade-title{
 	opacity: 0.4;
 }
+
+
+
+
+/* Sidebar */
+
+
+
+/* Fakebar */
+#movie-fakebar {
+  position: fixed;
+  right: 0px;
+  width: 420px;
+  top: 0px;
+  background: #efefef;
+  color: #555;
+  height: 100%;
+  box-shadow: 0px 4px 20px #231F20;
+  -webkit-box-shadow: 0px 4px 20px #231F20;
+  -mox-box-shadow: 0px 4px 20px #231F20;
+  padding-left: 5px;
+}
+#movie-fakebar * {
+  font-family: 'Droid Serif', serif;
+}
+#movie-fakebar #movie-details {
+  padding-top: 10px;
+}
+#movie-fakebar #movie-details-text {
+  float: left;
+  width: 200px;
+}
+#movie-fakebar #movie-details-text rating {
+  font-size: 16px;
+  font-weight: 600;
+}
+#movie-fakebar #movie-details-text rating label {
+  font-size: 14px;
+  font-weight: 300;
+}
+#movie-fakebar #movie-title {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 17px;
+  display: none;
+}
+#movie-fakebar #movie-image {
+  width: 210px;
+  float: left;
+}
+#movie-fakebar #movie-image img {
+  width: 95%;
+}
+#movie-fakebar #movie-trailer iframe {
+  left: -5px;
+  position: relative;
+  width: 425px;
+}
+
+
+#epinx-com-chrome-extension-guide h1.loader {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Nunito', sans-serif;
+  font-size: 4.6875em;
+  color: transparent;
+  letter-spacing: 0.01em;
+}
+#epinx-com-chrome-extension-guide .loader span {
+  text-shadow: 0 0 2px rgba(204, 208, 212, 0.9), 0 15px 25px rgba(0, 0, 0, 0.3), 0 -2px 3px rgba(0, 0, 0, 0.1), 0 -5px 10px rgba(255, 255, 255, 0.5), 0 5px 10px rgba(0, 0, 0, 0.3), 0 3px 4px rgba(255, 255, 255, 0.2), 0 0 20px rgba(255, 255, 255, 0.45);
+  animation: loading 0.85s ease-in-out infinite alternate;
+}
+@keyframes loading {
+  to {
+    text-shadow: 0 0 2px rgba(204, 208, 212, 0.2), 0 0 3px rgba(0, 0, 0, 0.02), 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(255, 255, 255, 0), 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(255, 255, 255, 0), 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+#epinx-com-chrome-extension-guide .loader span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+#epinx-com-chrome-extension-guide .loader span:nth-child(3) {
+  animation-delay: 0.30s;
+}
+#epinx-com-chrome-extension-guide .loader span:nth-child(4) {
+  animation-delay: 0.45s;
+}
+#epinx-com-chrome-extension-guide .loader span:nth-child(5) {
+  animation-delay: 0.60s;
+}
+#epinx-com-chrome-extension-guide .loader span:nth-child(6) {
+  animation-delay: 0.75s;
+}
+#epinx-com-chrome-extension-guide .loader span:nth-child(7) {
+  animation-delay: 0.90s;
+}
+
+
+
+
+
+
+
+
+
+
+/* Testing time, Push Menu Styles */
+ 
+.cbp-spmenu {
+    position: fixed;
+}
+ 
+ 
+/* Orientation-dependent styles for the content of the menu */
+ 
+.cbp-spmenu-vertical {
+    width: 440px;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+}
+ 
+.cbp-spmenu-horizontal {
+    width: 100%;
+    height: 150px;
+    left: 0;
+    z-index: 1000;
+    overflow: hidden;
+}
+ 
+.cbp-spmenu-horizontal h3 {
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+ 
+.cbp-spmenu-horizontal a {
+    float: left;
+    width: 20%;
+    padding: 0.8em;
+    border-left: 1px solid #258ecd;
+}
+ 
+/* Vertical menu that slides from the left or right */
+ 
+.cbp-spmenu-left {
+    left: -440px;
+}
+ 
+.cbp-spmenu-right {
+    right: -440px;
+}
+ 
+.cbp-spmenu-left.cbp-spmenu-open {
+    left: 0px;
+}
+ 
+.cbp-spmenu-right.cbp-spmenu-open {
+    right: 0px;
+}
+ 
+/* Horizontal menu that slides from the top or bottom */
+ 
+.cbp-spmenu-top {
+    top: -150px;
+}
+ 
+.cbp-spmenu-bottom {
+    bottom: -150px;
+}
+ 
+.cbp-spmenu-top.cbp-spmenu-open {
+    top: 0px;
+}
+ 
+.cbp-spmenu-bottom.cbp-spmenu-open {
+    bottom: 0px;
+}
+ 
+/* Push Menu Styles End */
